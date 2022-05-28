@@ -1,0 +1,77 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>The Map</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=7ee6852c-9e43-4630-920e-b18403a06fea
+&lang=ru_RU" type="text/javascript">
+    </script>
+  
+    
+   <script type="text/javascript">
+        ymaps.ready(init);
+        function init(){
+
+            var myMap = new ymaps.Map("map", {
+                center: [ 53.48,-2.48],
+                controls: ['geolocationControl', 'routeButtonControl','trafficControl','typeSelector','fullscreenControl','zoomControl','rulerControl','inputSearch'],
+                zoom: 15
+            });
+        
+        
+
+
+
+        control = myMap.controls.get('routeButtonControl','trafficControl');
+
+        control.routePanel.state.set('from', 'чернышевская');
+
+        
+        
+        GET  https://taxi-routeinfo.taxi.yandex.net/taxi_info?clid=<clid>&apikey=<apikey>&rll=<lon,lat~lon,lat>&class=<class_str>&req=<req_str>
+
+        }
+
+
+
+
+
+
+
+   </script>
+
+ 
+
+     <style>
+         body {
+             margin:0;
+         }
+        #map{
+            height: 85vh;
+            width: 85vw;
+        }
+    
+    </style>
+   <script src = "script.js" defer></script>
+
+
+</head>
+
+<body>
+
+    <div id="map" ></div>
+
+</body>
+
+</html>
+
