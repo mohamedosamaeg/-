@@ -2,7 +2,7 @@
 
 namespace CpactyTaxi.Controllers
 {
-    public class MapController1 : Controller
+    public class MapController : Controller
     {
         public IActionResult Map()
         {

@@ -15,6 +15,8 @@ namespace CpactyTaxi.Controllers
 
         public IActionResult Index()
         {
+            //List<Result> rsl= new List<Result>(){ new Result(){brandName="yTaxt" , price=5
+            //new Result(){brandName}}
             return View();
         }
 
