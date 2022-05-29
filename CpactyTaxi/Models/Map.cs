@@ -6,5 +6,6 @@ namespace CpactyTaxi.Models
     {
         public string From { get; set; }
         public string To { get; set; }
+        public string AddressIP { get; set; }
     }
 }

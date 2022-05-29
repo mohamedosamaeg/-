@@ -2,9 +2,8 @@
 
 namespace CpactyTaxi.Models
 {
-    public class Taxi:Base
+    public class TaxiResult:Base
     {
-       public string TaxiName { get; set; }
         public int TaxiPrice { get; set; }
     }
 }
