@@ -12,7 +12,6 @@ namespace CpactyTaxi.Data
         {
             
         }
-        public DbSet<Adress> adress { get; set; }
 
     }
 }
