@@ -9,11 +9,13 @@ namespace CpactyTaxi.Controllers
         {
             List<TaxiResult> taxiResults = new List<TaxiResult>()
             {
-                new TaxiResult(){ TaxiName="Uber",Cost=10},
-                new TaxiResult(){ TaxiName="Yellow taxi",Cost=20},
-                new TaxiResult(){ TaxiName="Indrive",Cost=15},
+                new TaxiResult(){ TaxiName="Uber",Cost=150},
+                new TaxiResult(){ TaxiName="Yandex taxi",Cost=205},
+                new TaxiResult(){ TaxiName="Ситимобил",Cost=159},
             };
             return View(taxiResults);
+            //Copy Rights MoOsama
         }
+       
     }
 }
