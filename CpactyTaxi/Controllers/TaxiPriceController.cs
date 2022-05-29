@@ -14,10 +14,8 @@ namespace CpactyTaxi.Controllers
                 new TaxiResult(){ TaxiName="Ситимобил",Cost=159},
             };
             return View(taxiResults);
+            //Copy Rights MoOsama
         }
-        public IActionResult TestPartial()
-        {
-            return View(); 
-        }
+       
     }
 }

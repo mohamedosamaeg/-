@@ -1,5 +1,6 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+    colour: #5AD8C1;
 }
 
 @media (min-width: 768px) {
@@ -15,4 +16,18 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+.btn{
+    /* btn_bg */
+
+    position: center;
+    resize: 50px;
+    
+    left: 0%;
+    right: 0%;
+    top: 25%;
+    bottom: 25%;
+    background: #5AD8C1;
+    box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
 }
