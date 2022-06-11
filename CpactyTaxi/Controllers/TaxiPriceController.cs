@@ -1,17 +1,25 @@
-﻿using CpactyTaxi.View_Models;
+﻿using CpactyTaxi.Interfaces;
+using CpactyTaxi.View_Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CpactyTaxi.Controllers
 {
     public class TaxiPriceController : Controller
     {
+        private readonly IRideInfoRepository rideInfoRepository;
+
+        public TaxiPriceController(IRideInfoRepository _rideInfoRepository)
+        {
+            rideInfoRepository = _rideInfoRepository;
+        }
         public IActionResult TaxiIndex()
         {
-            List<TaxiResult> taxiResults = new List<TaxiResult>()
+            rideInfoRepository.GetTaxiResult();
+            List<TaxiResultDto> taxiResults = new List<TaxiResultDto>()
             {
-                new TaxiResult(){ TaxiName="Uber",Cost=150},
-                new TaxiResult(){ TaxiName="Yandex taxi",Cost=205},
-                new TaxiResult(){ TaxiName="Ситимобил",Cost=159},
+                new TaxiResultDto(){ TaxiName="Uber",Cost=150},
+                new TaxiResultDto(){ TaxiName="Yandex taxi",Cost=205},
+                new TaxiResultDto(){ TaxiName="Ситимобил",Cost=159},
             };
             return View(taxiResults);
             //Copy Rights MoOsama
