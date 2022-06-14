@@ -40,16 +40,21 @@ body {
     background: #3cb87b;
     border-radius: 20px;
 }
-.logodiv {
+/*.logodiv {
    
     position: center;
     width: 100px;
     height: 100px;
    
+}*/
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    background-color: #505760 !important;
 }
-.navbar navbar-expand-lg navbar-dark bg-dark {
-    background-color: #1c1f1f;
+
+a.navbar-brand {
+    color: #39b878 !important;
 }
+
 .RegisterPage {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
