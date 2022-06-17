@@ -21,10 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="img\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\lib\logopng.png" />
   </ItemGroup>
 
