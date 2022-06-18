@@ -40,6 +40,19 @@ body {
     background: #3cb87b;
     border-radius: 20px;
 }
+.anchorBTN {
+    text-decoration: none;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #5AD8C1;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgb(255 255 255 / 10%) inset;
+    margin-bottom: 10px;
+}
 /*.logodiv {
    
     position: center;
