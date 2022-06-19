@@ -13,42 +13,57 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
+
+
+    <div id="back"><a href="#" class="previous round">&#8249;</a>
+    </div>
     <div id="wrapper">
+
         <div id="dialog">
-            <button class="close">  </button>
             <span> Verify code </span>
 
-            <h3>A code has been sent to +7 922 333-44-55 via SMS</h3>
-                <form action="" method="post">
-                        <div id="form">
-                    <input type="number" name="num1" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
-                    <input type="number" name="num2" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
-                    <input type="number" name="num3" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
-                    <input type="number" name="num4" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
-                    <button class="btn btn-primary btn-embossed"> Press here to get a call</button>
+            <h3>A code has been sent to <br>+7 922 333-44-55 via SMS</h3>
+
+            <form action="" method="post">
+                <div id="form">
+                    <div id="number">
+
+                        <input type="number" name="num1" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                        <input type="number" name="num2" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                        <input type="number" name="num3" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                        <input type="number" name="num4" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                    </div>
+                    <div id="ResendCode">
+                        <a href="#">
+                            <h3>Resend code</h3>
+                        </a>
+
+
+                    </div>
+
+                    <div id="call">
+                        <button class="btn btn-primary btn-embossed">
+                         Press here to get a call</button>
+                    </div>
+                    <div>
+                        <div id="send">
+                            <input type="submit" value="Send" />
                         </div>
-                    <input type="submit" value="Send" />
-                    <input type="reset" value="Reset" />
-                    </form>
+                    </div>
 
+                </div>
 
-
-
-
-
-
+            </form>
 
         </div>
 
     </div>
+    </body>
 
-
-</body>
 
 </html>
