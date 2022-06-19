@@ -393,3 +393,25 @@ div {
         padding: 12px 20px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*map styl*/
+body {
+    margin: 0px;
+}
+
+#map {
+    height: 80vh;
+    width: 80vw;
+}
