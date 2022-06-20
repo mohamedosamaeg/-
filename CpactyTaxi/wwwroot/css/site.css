@@ -233,40 +233,41 @@ a {
         overflow: hidden;
         position: relative;
         max-width: 450px;
+        font-family: 'Nunito', sans-serif;
     }
 
-    #wrapper #dialog h3 {
-        height: 40px;
-        left: calc(50% - 200px/2 + 0.5px);
-        top: calc(50% - 42px/2 - 204px);
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 136%;
-        text-align: center;
-        color: #3cb87b;
-        margin: -7px 0px;
-    }
+        #wrapper #dialog h3 {
+            height: 40px;
+            left: calc(50% - 200px/2 + 0.5px);
+            top: calc(50% - 42px/2 - 204px);
+            font-family: 'Nunito', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 136%;
+            text-align: center;
+            color: #3cb87b;
+            margin: -7px 0px;
+        }
 
-    #wrapper #dialog span {
-        /* nav_text */
-        width: 237px;
-        height: 20px;
-        left: calc(50% - 237px/2);
-        top: 35px;
-        /* Heading 1 */
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 35px;
-        line-height: 28px;
-        /* or 140% */
-        text-align: center;
-        letter-spacing: 0.2px;
-        /* Black */
-        color: #3cb87b;
-    }
+        #wrapper #dialog span {
+            /* nav_text */
+            width: 237px;
+            height: 20px;
+            left: calc(50% - 237px/2);
+            top: 35px;
+            /* Heading 1 */
+            font-family: 'Nunito', sans-serif;
+            
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 28px;
+            /* or 140% */
+            text-align: center;
+            letter-spacing: 0.2px;
+            /* Black */
+            color: #3cb87b;
+        }
 
     #wrapper #dialog #form {
         max-width: 240px;
@@ -308,7 +309,7 @@ a {
             text-transform: uppercase;
             bottom: 37.81%;
             border-radius: 25px;
-            font-family: 'Inter';
+            font-family: 'Nunito', sans-serif;
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
@@ -337,43 +338,36 @@ a {
         top: 5px;
     }
 
-#wrapper #dialog #form #send input {
-    text-decoration: none;
-    padding: 11px 39px 11px 41px;
-    color: #FFF;
-    font-size: 19px;
-    text-align: center;
-    font-style: normal;
-    width: 52%;
-    border: 1px solid #3cb87b;
-    border-width: 0px 1px 3px;
-    box-shadow: 0 -1px 0 rgb(255 255 255 / 10%) inset;
-    top: 50%;
-    margin: 60px;
-    background: #3cb87b;
-    border-radius: 20px;
-    box-sizing: border-box;
-}
-    
-    /*
-{
-    text-decoration: none;
-    padding: 19px 39px 18px 39px;
-    color: #FFF;
-    font-size: 18px;
-    text-align: center;
-    font-style: normal;
-    width: 100%;
-    border: 1px solid #5AD8C1;
-    border-width: 1px 1px 3px;
-    box-shadow: 0 -1px 0 rgb(255 255 255 / 10%) inset;
-    margin-bottom: 10px;
-}*/
+        #wrapper #dialog #form #send input {
+            text-decoration: none;
+            padding: 11px 39px 11px 41px;
+            color: #FFF;
+            font-size: 19px;
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+            width: 52%;
+            border: 1px solid #3cb87b;
+            border-width: 0px 1px 3px;
+            box-shadow: 0 -1px 0 rgb(255 255 255 / 10%) inset;
+            top: 50%;
+            margin: 60px;
+            background: #3cb87b;
+            border-radius: 20px;
+            box-sizing: border-box;
+        }
+
+       
+
 
         #wrapper #dialog div {
         position: relative;
         z-index: 1;
     }
+
+
+
+
+
 
 div {
     position: relative;
@@ -381,22 +375,17 @@ div {
 }
 
 
-/*
-#wrapper #dialog img {
-    bottom: -70px;
-    right: -63px;
-}
-*/
+
+
+
+
+
 
 @media (max-width:1023px) {
     wrapper {
         padding: 12px 20px;
     }
 }
-
-
-
-
 
 
 
